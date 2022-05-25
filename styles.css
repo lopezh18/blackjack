@@ -1,0 +1,46 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* style every image in dealer-cards */
+#dealer-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+/* style every image in your-cards */
+#your-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#split-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#hit {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#stay {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#split {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
